@@ -1,13 +1,11 @@
-import Head from "next/head";
+import { Seo } from "@/ui/components/seo";
 
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Coders Monkeys</title>
-        <p>Juste un test</p>
-      </Head>
+    <Seo title="Codeurs Monkeys" description="decription...."/>
+    <h1>Hello World</h1>
     </>
   );
 }
