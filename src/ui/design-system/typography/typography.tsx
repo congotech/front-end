@@ -31,7 +31,6 @@ export const Typography: React.FC<Props> = ({
     className,
     children }) => {
     const Component = component;
-
   
     let variantStyles: string = "", colorStyles: string =""; 
 
